@@ -45,11 +45,11 @@ let times = [
     derrotas : " 1 ",
 },
 {
-    nome : "  ",
+    nome : " campos gerais ",
    goleiro : " carlos ",
    alaEsquerda : " josé ",
    alaDireita : " leviski ",
-   fixo : " luan ",
+   fixo : " xandy ",
    pivo :  " hellmann ",
    técnico : " nelson ",
    vitórias : " 3 ",
@@ -57,3 +57,10 @@ let times = [
 },
 ]
 
+function vertimes (){
+   times.forEach( (time) => {
+      console.log(time.nome + "-" + time.goleiro + "(goleiro)," + time.alaEsquerda + "(alaEsquerda)," + time.alaDireita + "(alaDireita),"  
+      + time.fixo + "(fixo)," + time.pivo + "(pivo)," + time.técnico + "(técnico)," + time.vitórias + "(vitórias)," + time.derrotas + "(derrotas),")
+   });
+}
+vertimes();
